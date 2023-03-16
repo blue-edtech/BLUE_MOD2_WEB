@@ -1,0 +1,17 @@
+.column {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .col-1 {
+    flex-basis: 2;
+  }
+  
+  .col-2 {
+    flex-basis: 7;
+  }
+  
+  .col-3 {
+    flex-basis: 3;
+  }
+  
