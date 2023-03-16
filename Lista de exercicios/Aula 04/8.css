@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Helvetica, Arial;
+}
+
+body,
+html {
+    height: 100vh;
+    width: 100%;
+    background-color: #fdf0e9;
+}
+
+header {
+    background-color: #28293E;
+    color: #fff;
+    padding: 2rem 10rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    cursor: pointer;
+}
+
+#btn-contact {
+    border: 1px solid #ffffff50;
+    padding: .7rem 2rem;
+    border-radius: .4rem;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+#btn-contact:hover {
+    background-color: #fff;
+    color: #28293E;
+}
+
+header section {
+    padding: 5rem;
+}
+
+header section h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 1.5rem;
+}
+
+header section p {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    font-weight: 200;
+    line-height: 2rem;
+}
+
+section#one {
+    padding: 3rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#one div {
+    padding: 3rem 30rem;
+}
+
+p.up-title {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: #EF6D58;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+h2.subtitle {
+    color: #391400;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 3rem;
+}
+
+p.text {
+    color: #391400;
+    line-height: 2rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+section#two {
+    padding: 0 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#two div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    border: 1px solid #EF6D5830;
+    height: 5rem;
+}
+
+section#two div img {
+    padding: 1.5rem;
+    margin-right: 1rem;
+}
+
+section#two div span h3 {
+    color: #391400;
+    font-size: 2rem;
+}
+
+section#three {
+    padding: 5rem 40rem;
+}
+
+iframe {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+    border-color: #EF6D5830;
+}
+
+section#four {
+    padding: 5rem 40rem;
+
+}
+
+.quote {
+    position: relative;
+    color: #391400;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 1rem;
+}
+
+section#four img {
+    position: absolute;
+    top: -3rem;
+    right: 3rem;
+    z-index: -1;
+}
+
+.normal-text {
+    color: #391400;
+    font-size: 1.2rem;
+    margin-bottom: .8rem;
+}
+
+.sub-text {
+    color: #39140080;
+}
+
+section#five {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 6rem 10rem;
+
+}
+
+section#five img {
+    height: 100%;
+}
+
+section#six {
+    background-color: #f9e5da;
+    position: relative;
+    padding: 2rem 10rem 1rem 10rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#six img#present-img {
+    position: absolute;
+    top: -5rem;
+    left: 10rem;
+}
+
+section#six p {
+    width: 20rem;
+}
+
+section#six h3 {
+    font-size: 2rem;
+    width: 20rem;
+    padding: 1rem 0;
+}
+
+section#six button {
+    padding: 1rem 2.5rem;
+    background-color: #ef6d58;
+    border-radius: .4rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+footer {
+    background-color: #28293E;
+    padding: 2rem 10rem;
+    color: #fff;
+}
+
+#footer-one {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+#footer-one h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#footer-one ul {
+    list-style: none;
+
+}
+
+#footer-one ul li.li-title {
+    text-transform: uppercase;
+    color: #ef6d58;
+    letter-spacing: .2rem;
+
+}
+
+#footer-one ul li {
+    padding: .5rem;
+    cursor: pointer;
+}
+
+#footer-one img {
+    cursor: pointer;
+}
+
+#hr-footer {
+    width: 80%;
+    margin: 0 auto;
+    border-color: #ffffff30;
+}
+
+#footer-two {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 2rem;
+}
+
+#footer-two div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-two div p {
+    padding: 0 1rem;
+    cursor: pointer;
+}
