@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+
+    <!-- Importando o Bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 text-secondary">Página Inicial</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Portfólio</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Contato</a></li>
+                </ul>
+
+                <div class="text-end">
+                    <button type="button" class="btn btn-warning">Entrar</button>
+                    <button type="button" class="btn btn-light">Registre-se</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção de Galeria de Imagens -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="pb-2 border-bottom">Galeria de Imagens</h2>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://picsum.photos/800/600?random=1" class="card-img-top" alt="Imagem do Projeto">
+                        <div class="card-body">
+                            <p class="card-text">Descrição do Projeto</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="modal" data-bs-target="#projeto1">Detalhes</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                                </div>
+                                <small class="text-muted">&#9733 &#9733 &#9733 &#9733</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://picsum.photos/800/600?random=2" class="card-img-top" alt="Imagem do Projeto">
+                        <div class="card-body">
+                            <p class="card-text">Descrição do Projeto</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="modal" data-bs-target="#projeto2">Detalhes</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                                </div>
+                                <small class="text-muted">&#9733 &#9733 &#9733 </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://picsum.photos/800/600?random=3" class="card-img-top" alt="Imagem do Projeto">
+                        <div class="card-body">
+                            <p class="card-text">Descrição do Projeto</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"
+                                        data-bs-toggle="modal" data-bs-target="#projeto3">Detalhes</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                                </div>
+                                <small class="text-muted">&#9733 &#9733 &#9733 &#9733 &#9733</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

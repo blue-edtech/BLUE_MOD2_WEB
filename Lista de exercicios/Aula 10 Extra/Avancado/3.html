@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bootstrap 5 Page</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nome:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Telefone:</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Digite seu telefone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mensagem:</label>
+                        <textarea class="form-control" id="message" rows="3"
+                            placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="gender" class="form-label">Gênero:</label>
+                        <div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                                <label class="form-check-label" for="male">Masculino</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                                <label class="form-check-label" for="female">Feminino</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="interests" class="form-label">Interesses:</label>
+                        <div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="programming" id="programming"
+                                    name="interests[]">
+                                <label class="form-check-label" for="programming">Programação</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="music" id="music"
+                                    name="interests[]">
+                                <label class="form-check-label" for="music">Música</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="sports" id="sports"
+                                    name="interests[]">
+                                <label class="form-check-label" for="sports">Esportes</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"
+        integrity="sha512-NLGvCBgWp49kCNJxPLpNVg1bEEQi8W+J2r2h1X9DfJm+8lF61Q4E4MshyTDJ6fL44cl4BncSvn0dXZ85UJv5eA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
