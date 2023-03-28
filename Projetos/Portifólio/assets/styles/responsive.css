@@ -1,3 +1,56 @@
+/*desktop*/
+@media screen and (min-width: 1361px) and (max-width: 1660px) {
+    #logo-nav{
+        font-size: 1.7rem;
+    }
+
+    #lista-nav{
+        width: 50%;
+    }
+
+    #lista-nav a li{
+        font-size: 1.2rem;
+    }
+}
+
+/*desktop mini*/
+@media screen and (min-width: 1024px) and (max-width: 1360px) {
+    #logo-nav{
+        font-size: 1.7rem;
+    }
+
+    #lista-nav{
+        width: 50%;
+    }
+
+    #lista-nav a li{
+        font-size: 1.2rem;
+    }
+
+    #sobre-mim{
+        padding: 12% 0 0 0;
+    }
+
+    .projeto img{
+        width: 15rem;
+    }
+
+    .servico{
+        width: 30%;
+    }
+
+    .titulo-servico{
+        font-size: 2rem;
+        width: 60%;
+    }
+
+    #minhas-skills img#icone-next{
+        padding-top: 4.8%;
+        padding-bottom: 4.8%;
+    }
+}
+
+
 /*tablet*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     #logo-nav{
@@ -57,7 +110,7 @@
     }
 
     .projeto img{
-        width: 480px;
+        width: 35rem;
     }
 
     #container-servicos{
@@ -176,7 +229,7 @@
     }
 
     .projeto img{
-        width: 300px;
+        width: 19rem;
     }
 
     #container-servicos{
