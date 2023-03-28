@@ -1,0 +1,224 @@
+/*tablet*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #logo-nav{
+        font-size: 1.5rem;
+    }
+
+    #lista-nav{
+        width: 60%;
+    }
+
+    #lista-nav a li{
+        font-size: 1rem;
+    }
+
+    #titulo-inicio{
+        font-size: 3rem;
+    }
+
+    #imagem-inicio{
+        display: none;
+    }
+
+    #sobre-mim{
+        padding: 12% 0 0 0;
+    }
+
+    .titulo{
+        text-align: justify;
+        font-size: 2.8rem;
+    }
+
+    #descricao-sobre-mim{
+        font-size: 1.1rem;
+        text-align: left;
+    }
+
+    .titulo-container-contatos{
+        font-size: 1rem;
+    }
+
+    .container-projetos-um,
+    .container-projetos-dois{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+
+    .container-projetos-um{
+        margin-bottom: 0;
+    }
+
+    .projeto{
+        padding-top: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-bottom: 5%;
+    }
+
+    .projeto img{
+        width: 480px;
+    }
+
+    #container-servicos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .servico{
+        border-bottom: solid 5px #00DF5E;
+    }
+
+    .titulo-servico{
+        font-size: 1.5rem;
+        width: 70%;
+    }
+
+    #minhas-skills img{
+        width: 2rem;
+    }
+
+    #minhas-skills img#icone-css{
+        padding-top: 2.8%;
+        padding-bottom: 2.8%;
+    }
+}
+
+/*smartphone*/
+@media screen and (max-width: 767px) {
+    nav{
+        display: none;
+    }
+
+    #titulo-inicio{
+        font-size: 2.5rem;
+        width: 100%;
+    }
+
+    #descricao-inicio{
+        font-size: 1.3rem;
+    }
+
+    #container-botoes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #botao-cv{
+        font-size: 0.8rem;
+    }
+
+    #botao-contato{
+        font-size: 0.8rem;
+    }
+
+    #imagem-inicio{
+        display: none;
+    }
+
+    #sobre-mim{
+        padding: 12% 0 0 0;
+    }
+
+    .titulo{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    #descricao-sobre-mim{
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    #container-contatos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icone-e-texto{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .icone-e-texto img{
+        width: 3rem;
+        margin-bottom: 0;
+    }
+
+    .titulo-container-contatos{
+        display: none;
+    }
+
+    .container-projetos-um,
+    .container-projetos-dois{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+
+    .descricao-container-contatos{
+        margin-left: 5%;
+    }
+
+    .container-projetos-um{
+        margin-bottom: 0;
+    }
+
+    .projeto{
+        padding-top: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-bottom: 5%;
+    }
+
+    .projeto img{
+        width: 300px;
+    }
+
+    #container-servicos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .servico{
+        width: 100%;
+        border-bottom: solid 5px #00DF5E;
+        margin-bottom: 5%;
+    }
+
+    .titulo-servico{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    #minhas-skills img{
+        width: 1.5rem;
+    }
+
+    #minhas-skills img#icone-css{
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+
+    #minhas-skills img#icone-next{
+        padding-top: 4.2%;
+        padding-bottom: 4.2%;
+    }
+
+    footer{
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+
+    footer p{
+        font-size: 0.8rem;
+    }
+    
+    footer p span{
+        font-size: 0.8rem;
+    }
+}
