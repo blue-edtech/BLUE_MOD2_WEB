@@ -1,0 +1,210 @@
+@media(max-width:800px){
+    /*header + introdução*/
+    #pokedex-intro{
+        margin: 0 5rem 5rem 5rem;
+    }
+
+    #image-intro img{
+        display: none;
+    }
+
+    #card-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 43vw;
+        width: 40vw;
+    }
+
+    .character_image{
+        height: 18vw;
+        width: 18vw;
+    }
+
+    .character_information{
+        height: 20vw;
+        width: 50vw;
+    }
+
+    /*modal*/
+    .close-button img{
+        width: 2rem;
+        margin-left: 85%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .container_images{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .container-image-and-infos{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .poke-and-infos{
+        margin: 0 0 0 5%;
+        width: 50%;
+    }
+    
+    .pokemon_description{
+        font-size: 1.2rem;
+        width: 80%;
+    }
+    
+    .stats{
+        margin: 0 5% 0 5%;
+        width: 40%;
+    }
+    
+    .evolution{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        background-color: #C3E4D3;
+        border: none;
+        border-radius: 1rem;
+        width: 90%;
+        margin-top: 2%;
+        padding: 3% 0 3% 0;
+    }
+    
+    .evolution-title{
+        font-size: 1.5rem;
+        text-align: left;
+        margin: 5% 0 5% 10%;
+    }
+
+    .evolution-description{
+        display: none;
+    }
+
+    /*paginação*/
+    #page-buttons{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .button{
+        font-size: 1rem;
+        width: 6vw;
+        height: 6vw;
+    }
+
+    /*footer*/
+    footer{
+        height: 7vw;
+    }
+}
+
+@media(max-width:600px){
+    /*header + introdução*/
+    #pokedex-intro{
+        margin: 0 5rem 5rem 5rem;
+    }
+
+    #image-intro img{
+        display: none;
+    }
+
+    /*modal*/
+    #card-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 63vw;
+        width: 60vw;
+    }
+
+    .character_image{
+        height: 25vw;
+        width: 25vw;
+    }
+
+    .character_information{
+        height: 25vw;
+        width: 50vw;
+    }
+
+    /*modal*/
+    .close-button img{
+        width: 2rem;
+        margin-left: 85%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .container_images{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+
+    .poke-and-infos{
+        margin: 0 5% 0 5%;
+    }
+
+    .pokemon_description{
+        font-size: 1.2rem;
+        width: 80%;
+    }
+
+    .stats{
+        margin: 1% 5% 0 5%;
+    }
+
+    .evolution{
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+        background-color: #C3E4D3;
+        border: none;
+        border-radius: 1rem;
+        width: 90%;
+        margin-top: 2%;
+    }
+
+    .evolution-title{
+        display: none;
+    }
+
+    .evolution-description{
+        display: none;
+    }
+
+    /*paginação*/
+    #page-buttons{
+        margin-bottom: 3rem;
+    }
+
+    .button{
+        font-size: 1rem;
+        width: 6vw;
+        height: 6vw;
+    }
+
+    /*footer*/
+    footer{
+        height: 7vw;
+    }
+}
